@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    ports:
+      - "<port>:<port>"
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Jakarta
