@@ -15,19 +15,19 @@ A chatbot for Nawatech that answers customer inquiries using large language mode
 
 ## Project Structure
 nawatech-chatbot/
-├── app                             # Application code
-│   ├── config.py                   # Configuration settings
-│   ├── data                        # Data processing
-│   ├── database                    # Database related code
-│   ├── models                      # Model definitions
-│   ├── ui                          # UI components
-│   └── util                        # Utility functions
-├── data                            # Data directory for storage
-├── docker-compose.yml              # Docker Compose configuration
-├── Dockerfile                      # Container definition
-├── README.MD                       # Project documentation
-├── requirements.txt                # Python dependencies
-└── tests                           # Unit tests
+├── app                             
+│   ├── config.py                   
+│   ├── data                        
+│   ├── database            
+│   ├── models              
+│   ├── ui                  
+│   └── util                
+├── data                    
+├── docker-compose.yml      
+├── Dockerfile              
+├── README.MD               
+├── requirements.txt        
+└── tests                   
 
 ## Getting Started
 
